@@ -9,7 +9,7 @@ import keyboard
 import serial.tools.list_ports  # Para detectar puertos COM disponibles
 from PyQt5.QtGui import QIcon, QFont, QPalette, QColor, QPixmap
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QHBoxLayout, QWidget, QLabel, QLineEdit
-from PyQt5.QtCore import Qt, QThread, pyqtSignal
+from PyQt5.QtCore import Qt, QThread, pyqtSignalc
 
 
 def resource_path(relative_path):
